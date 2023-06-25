@@ -40,8 +40,8 @@ const Selection = () => {
 						src='https://elearningindustry.com/wp-content/uploads/2022/04/shutterstock_1702358245.jpg'
 						alt=''
 					/>
-					<h2>Interview Readiness</h2>
-					<Link to={'/chat'}>
+					<h2>Speech to Text</h2>
+					<Link to={'/talkie'}>
 						<button className='btn'>OPEN</button>
 					</Link>
 				</div>
