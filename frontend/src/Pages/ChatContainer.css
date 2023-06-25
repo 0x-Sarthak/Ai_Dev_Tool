@@ -1,0 +1,36 @@
+.main-chat-div {
+	/* background-color: #282c34; */
+	background: #000000; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#434343,
+		#000000
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#434343,
+		#000000
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-family: 'Chakra Petch', sans-serif;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+	padding-bottom: 20px;
+}
+
+.answer-div {
+	border-radius: 20px;
+	font-family: 'Jost', sans-serif;
+	margin: auto;
+	margin-bottom: 20px;
+	padding: 10px;
+	text-align: left;
+	width: 90%;
+	height: auto;
+	border: 1px solid white;
+}
